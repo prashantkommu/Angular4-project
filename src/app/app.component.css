@@ -1,0 +1,82 @@
+.padding-none {
+    padding: 0;
+}
+
+.padding-right-none {
+    padding-right: 0;
+}
+
+.padding-left-none {
+    padding-left: 0;
+}
+
+.processing-info-section {
+    padding: 0;
+}
+
+.processing-info-section h4 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.processing-info-section .table {
+    width: 25%;
+}
+
+.processing-info-section .table>thead>tr>th {
+    font-weight: 500;
+    color: gray;
+    padding-left: 0;
+    font-size: 16px;
+    border: none !important;
+    padding-bottom: 0;
+    font-family: Arial;
+}
+
+.processing-info-section .table>tbody>tr>td {
+    font-weight: 500;
+    color: #000;
+    padding-left: 0;
+    font-size: 16px;
+    border: none !important;
+    padding-bottom: 0;
+    font-family: Arial;
+}
+
+.processing-info-section .form-custom .quantity,
+.processing-info-section .form-custom .quantity:focus,
+.processing-info-section .form-custom .billedDaysSupply,
+.processing-info-section .form-custom .billedDaysSupply:focus,
+.processing-info-section .form-custom .actualDaysSupply,
+.processing-info-section .form-custom .actualDaysSupply:focus {
+    font-family: Arial;
+    border-color: #000 !important;
+    padding: 0px 5px !important;
+    text-align: center;
+    height: 25px !important;
+    box-shadow: none;
+}
+
+.processing-info-section .form-custom .quantity {
+    width: 72px !important;
+}
+
+.processing-info-section .form-custom .billedDaysSupply {
+    width: 50px !important;
+}
+
+.processing-info-section .form-custom .actualDaysSupply {
+    width: 40px !important;
+}
+
+.processing-info-section .form-custom .form-group {
+    margin-right: 30px;
+}
+
+.processing-info-section .form-custom label {
+    font-size: 16px !important;
+    font-weight: 100 !important;
+    color: gray;
+    padding-right: 8px;
+    font-family: Arial;
+}

@@ -1,1 +1,387 @@
+/* @import url("./icomoon.css"); */
+
+
 /* You can add global styles to this file, and also import other style files */
+
+.ui-growl {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 20em;
+}
+
+.ui-growl-item-container {
+    position: relative;
+    margin: 0 0 10px 0;
+    opacity: 0.95;
+    filter: alpha(opacity=95);
+}
+
+.ui-growl-item {
+    position: relative;
+    display: block;
+    padding: .5em 1em;
+}
+
+.ui-growl-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.ui-growl-icon-close {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    cursor: pointer;
+}
+
+.ui-growl-title {
+    font-weight: bold;
+    padding: 0 0 .5em 0;
+    display: block;
+}
+
+.ui-growl-image {
+    position: absolute;
+    display: inline-block;
+    left: .5em;
+    top: .25em;
+    padding: 0;
+}
+
+.ui-growl-message {
+    padding: 0 0 .25em 0;
+    margin-left: 2.5em;
+}
+
+.ui-growl-message p {
+    font-weight: normal;
+}
+
+.jumbotron {
+    padding: 0 !important;
+    margin-top: 10px !important;
+    background: #F7F7F7;
+    margin-top: 0px;
+    text-align: left;
+    margin-bottom: 5px !important;
+}
+
+body::-webkit-scrollbar {
+    width: 4px;
+    background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #646464;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px transparent;
+    background-color: transparent;
+}
+
+.scrollbarStyles::-webkit-scrollbar {
+    width: 7px;
+    background-color: transparent;
+}
+
+.scrollbarStyles::-webkit-scrollbar-thumb {
+    background-color: #646464;
+}
+
+.scrollbarStyles::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px transparent;
+    background-color: transparent;
+}
+
+.ui-datatable-scrollable-body::-webkit-scrollbar {
+    width: 7px;
+    background-color: transparent;
+}
+
+.ui-datatable-scrollable-body::-webkit-scrollbar-thumb {
+    background-color: #646464;
+}
+
+.ui-datatable-scrollable-body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px transparent;
+    background-color: transparent;
+}
+
+.ui-datatable-scrollable-header .ui-datatable-scrollable-header-box {
+    margin-right: 7px !important;
+}
+
+button {
+    height: 35px;
+}
+
+body .ui-button {
+    height: 35px;
+    border-radius: 4px !important;
+    padding: 0px !important;
+    background-color: #003348 !important;
+    border: 1px solid #003348 !important;
+}
+
+.ui-button-text {
+    padding: 3px 20px;
+    margin-top: -5px;
+    font-size: 19px;
+}
+
+.ui-button-text-icon-right .fa,
+.ui-button-text-icon-left .fa {
+    font-size: 19px;
+}
+
+.secondary-button {
+    height: 25px !important;
+    border-radius: 4px !important;
+    padding: 0px !important;
+    background-color: #003348 !important;
+    border: 1px solid #003348 !important;
+}
+
+.secondary-button .ui-button-text {
+    padding: 0px 20px;
+    margin-top: -4px !important;
+    font-size: 15px !important;
+}
+
+.secondary-button.ui-button-text-icon-right .fa,
+.secondary-button.ui-button-text-icon-left .fa {
+    font-size: 15px !important;
+}
+
+label {
+    margin-bottom: 2px !important;
+    font-size: 16px !important;
+}
+
+input {
+    height: 30px !important;
+    border-radius: 0px !important;
+    padding: 5px 10px !important;
+    font-size: 16px !important;
+    color: black !important;
+    width: 100% !important;
+}
+
+body .ui-inputtext:focus {
+    border-color: rgba(0, 0, 0, 0.15) !important;
+}
+
+p-dropdown .ui-dropdown label.ui-dropdown-label {
+    font-size: 16px !important;
+    padding: 5px 10px !important;
+    color: black !important;
+    border-radius: 0px !important;
+}
+
+.ui-dropdown .ui-dropdown-trigger {
+    padding: 0px !important;
+    padding-right: 10px !important;
+}
+
+p-dropdown .ui-state-disabled {
+    background-color: #E9E9E9 !important;
+    opacity: 1 !important;
+}
+
+.ui-dropdown .ui-dropdown-label,
+.ui-radiobutton,
+.ui-radiobutton-label {
+    margin-bottom: 0px !important;
+}
+
+.ui-dropdown .ui-dropdown-label,
+.ui-radiobutton,
+.ui-radiobutton-label {
+    margin-bottom: 0px !important;
+}
+
+html input[disabled] {
+    background-color: #E9E9E9 !important;
+    opacity: 1 !important;
+}
+
+html textarea[disabled] {
+    background-color: #E9E9E9 !important;
+    opacity: 1 !important;
+}
+
+html textarea[disabled] {
+    background-color: #E9E9E9 !important;
+    opacity: 1 !important;
+}
+
+.ui-calendar {
+    width: 100% !important;
+}
+
+body .ui-datatable thead th.ui-state-active {
+    background-color: #E9E9E9 !important;
+    color: black !important;
+    border-top: 1px solid black !important;
+    border-bottom: 1px solid black !important;
+}
+
+body .ui-datatable .ui-datatable-data tr.ui-state-highlight {
+    background-color: #B8E3EB !important;
+    border-color: #B8E3EB !important;
+    color: black !important;
+}
+
+body .ui-datatable .ui-datatable-data.ui-datatable-hoverable-rows>tr.ui-datatable-odd:not(.ui-state-highlight):hover {
+    background-color: transparent !important;
+}
+
+body .ui-datatable .ui-datatable-data.ui-datatable-hoverable-rows>tr.ui-datatable-even:not(.ui-state-highlight):hover {
+    background-color: #f7f7f7 !important;
+}
+
+body .ui-datatable thead th.ui-sortable-column:not(.ui-state-active):hover {
+    background-color: transparent !important;
+}
+
+.ui-datatable tbody {
+    color: #646464 !important;
+}
+
+.ui-paginator p-dropdown .ui-dropdown label.ui-dropdown-label {
+    padding-right: 1.5em !important;
+}
+
+.ui-paginator .ui-dropdown {
+    width: 4em !important;
+}
+
+body .ui-paginator .ui-paginator-first,
+body .ui-paginator .ui-paginator-prev,
+body .ui-paginator .ui-paginator-next,
+body .ui-paginator .ui-paginator-last {
+    color: black !important;
+}
+
+body .ui-radiobutton .ui-radiobutton-box.ui-state-active .ui-radiobutton-icon.fa-circle {
+    color: #37BAAB !important;
+}
+
+body .ui-radiobutton .ui-radiobutton-box .ui-radiobutton-icon {
+    font-size: 9px !important;
+    top: -0.17em !important;
+}
+
+body .ui-radiobutton .ui-radiobutton-box.ui-state-active {
+    border: 1px solid #646464 !important;
+    background-color: white !important;
+}
+
+body .ui-radiobutton .ui-radiobutton-box:not(.ui-state-disabled):not(.ui-state-active):hover,
+body .ui-radiobutton .ui-radiobutton-box {
+    border: 1px solid #646464 !important;
+}
+
+body .ui-paginator .ui-paginator-pages .ui-paginator-page {
+    color: #646464 !important;
+}
+
+body .ui-paginator .ui-paginator-pages .ui-paginator-page.ui-state-active {
+    background-color: #B8E3EB !important;
+    color: black !important;
+}
+
+body .ui-dropdown-panel .ui-dropdown-items .ui-dropdown-item.ui-state-highlight {
+    background-color: #B8E3EB !important;
+    color: black !important;
+}
+
+body .ui-dropdown {
+    border-radius: 0px !important;
+    width: 100% !important;
+}
+
+.fa-angle-right:before {
+    color: black;
+}
+
+.ui-chkbox .ui-chkbox-box {
+    width: 20px !important;
+    height: 20px !important;
+    background: #ffffff !important;
+    font-size: 15px !important;
+    padding-top: 1px !important;
+    border-radius: 0px !important;
+}
+
+body .ui-chkbox .ui-chkbox-box.ui-state-active {
+    border: 1px solid #646464 !important;
+    background-color: white !important;
+    color: #37BAAB !important;
+}
+
+body .ui-chkbox .ui-chkbox-box:not(.ui-state-disabled):not(.ui-state-active):hover,
+body .ui-chkbox .ui-chkbox-box {
+    border: 1px solid #646464 !important;
+}
+
+body .ui-listbox .ui-listbox-item.ui-state-highlight .ui-chkbox {
+    border: 0px !important;
+}
+
+body .ui-listbox .ui-listbox-item.ui-state-highlight {
+    background-color: #B8E3EB !important;
+    color: black !important;
+}
+
+body .ui-listbox .ui-listbox-item {
+    color: #646464 !important;
+}
+
+body .ui-panel .ui-panel-titlebar {
+    background-color: #E9E9E9 !important;
+    padding: 0px 20px !important;
+}
+
+body .ui-panel .ui-panel-titlebar .ui-panel-titlebar-icon {
+    margin: 0px !important;
+}
+
+body .ui-autocomplete-panel .ui-autocomplete-items .ui-autocomplete-list-item.ui-state-highlight {
+    background-color: #B8E3EB !important;
+    color: black !important;
+}
+
+body .ui-autocomplete-panel .ui-autocomplete-list-item {
+    color: #646464 !important;
+    font-size: 16px !important;
+}
+
+body .ui-autocomplete .ui-autocomplete-dropdown .ui-button-text {
+    padding: 0px !important;
+}
+
+.ui-button-icon-only .ui-button-text {
+    padding: 0px !important;
+}
+
+body .ui-dropdown:not(.ui-state-disabled):hover .ui-dropdown-trigger,
+body .ui-dropdown.ui-state-focus .ui-dropdown-trigger,
+body .ui-dropdown.ui-state-focus .ui-dropdown-label,
+body .ui-dropdown:not(.ui-state-disabled):hover .ui-dropdown-label {
+    background-color: white !important;
+}
+
+.ui-dropdown .ui-dropdown-panel {
+    min-width: 100%;
+    box-shadow: none;
+    border-radius: 0px;
+    top: 30px !important;
+}
+
+html textarea[disabled] {
+    background-color: #E9E9E9 !important;
+    opacity: 1 !important;
+}
