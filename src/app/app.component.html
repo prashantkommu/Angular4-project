@@ -1,5 +1,29 @@
 <div class="processing-info-section">
     <h4>PROCESSING INFORMATION</h4>
+    <div class="col-md-12">
+        <form class="form-inline form-custom" [formGroup]="processingInfoMainForm">
+            <div class="form-group">
+                <label for="fill">Fill</label>
+                <p-dropdown [options]="fillData" class="width-auto" formControlName="fill" [(ngModel)]="fill" optionLabel="name"></p-dropdown>
+            </div>
+            <div class="form-group">
+                <label for="primary">Primary</label>
+                <p-dropdown [options]="fillData" class="width-auto" formControlName="primary" [(ngModel)]="primary" optionLabel="name"></p-dropdown>
+            </div>
+            <div class="form-group">
+                <label for="secondPayor">2nd Payor</label>
+                <p-dropdown [options]="fillData" class="width-auto" formControlName="secondPayor" [(ngModel)]="secondPayor" optionLabel="name"></p-dropdown>
+            </div>
+            <div class="form-group">
+                <label for="secondPayor">2nd Payor</label>
+                <label for="secondPayor">2nd Payor</label>
+            </div>
+            <div class="form-group">
+                <label for="processAction">Process</label>
+                <p-dropdown [options]="fillData" class="width-auto" formControlName="processAction" [(ngModel)]="processAction" optionLabel="name"></p-dropdown>
+            </div>
+        </form>
+    </div>
     <table class="table">
         <thead>
             <tr>

@@ -80,3 +80,7 @@
     padding-right: 8px;
     font-family: Arial;
 }
+
+.width-auto {
+    width: auto !important;
+}
